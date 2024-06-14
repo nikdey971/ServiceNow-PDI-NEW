@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="285c2cdb47220210844835ca116d43e3" label="Order Lines" max_length="40" name="x_981023_billing_0_order_lines" type="collection">
+        <element label="Billing Period" max_length="40" name="billing_period" reference="x_981023_billing_0_billing_period" type="reference"/>
+        <element label="Client" max_length="32" name="client" reference="x_981023_billing_0_client" type="reference"/>
+        <element label="Cost" max_length="20" name="cost" type="currency"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Order Transaction" max_length="32" name="order_transaction" reference="x_981023_billing_0_order_transactions" type="reference"/>
+        <element choice="1" default="Ready" label="State" max_length="40" name="state" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Ready" sequence="0" value="Ready"/>
+                <element inactive_on_update="false" label="Billed" sequence="1" value="Billed"/>
+            </choice>
+        </element>
+        <index name="index">
+            <element name="client"/>
+        </index>
+        <index name="index2">
+            <element name="order_transaction"/>
+        </index>
+    </element>
+</database>

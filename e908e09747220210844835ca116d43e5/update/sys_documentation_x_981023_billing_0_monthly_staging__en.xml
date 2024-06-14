@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="" label="Monthly Staging" language="en" table="x_981023_billing_0_monthly_staging">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element/>
+            <help/>
+            <hint/>
+            <label>Monthly Staging</label>
+            <language>en</language>
+            <name>x_981023_billing_0_monthly_staging</name>
+            <plural>Monthly Stagings</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>aes.creator</sys_created_by>
+            <sys_created_on>2024-06-07 16:33:00</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Monthly Staging</sys_name>
+            <sys_package display_value="Billing and Collections Test" source="x_981023_billing_0">e908e09747220210844835ca116d43e5</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Billing and Collections Test">e908e09747220210844835ca116d43e5</sys_scope>
+            <sys_update_name>sys_documentation_x_981023_billing_0_monthly_staging__en</sys_update_name>
+            <sys_updated_by>aes.creator</sys_updated_by>
+            <sys_updated_on>2024-06-07 16:33:00</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="723830e547320210844835ca116d4355" extends="sys_import_set_row" label="Client Load" max_length="40" name="x_981023_billing_0_client_load" type="collection">
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Client Name" label="Client Name" max_length="40" name="u_client_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Client Number" label="Client Number" max_length="40" name="u_client_number" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Number" label="Number" max_length="40" name="u_number" type="string"/>
+    </element>
+</database>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_number">
+    <sys_number action="INSERT_OR_UPDATE">
+        <category display_value="" name="x_981023_billing_0_billing_period">x_981023_billing_0_billing_period</category>
+        <maximum_digits>7</maximum_digits>
+        <number>1000</number>
+        <prefix>BP</prefix>
+        <sys_class_name>sys_number</sys_class_name>
+        <sys_created_by>aes.creator</sys_created_by>
+        <sys_created_on>2024-06-07 16:42:44</sys_created_on>
+        <sys_id>ca4de05f47220210844835ca116d4378</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>BP</sys_name>
+        <sys_package display_value="Billing and Collections Test" source="x_981023_billing_0">e908e09747220210844835ca116d43e5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Billing and Collections Test">e908e09747220210844835ca116d43e5</sys_scope>
+        <sys_update_name>sys_number_ca4de05f47220210844835ca116d4378</sys_update_name>
+        <sys_updated_by>aes.creator</sys_updated_by>
+        <sys_updated_on>2024-06-07 16:42:44</sys_updated_on>
+    </sys_number>
+</record_update>

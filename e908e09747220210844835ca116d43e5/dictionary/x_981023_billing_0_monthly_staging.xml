@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="1f0b209b47220210844835ca116d435c" label="Monthly Staging" max_length="40" name="x_981023_billing_0_monthly_staging" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Active" max_length="40" name="active" type="string"/>
+        <element label="Billing Period" max_length="32" name="billing_period" reference="x_981023_billing_0_billing_period" type="reference"/>
+        <element attributes="encode_utf8=false" label="Client Number" max_length="32" name="client_number" reference="x_981023_billing_0_client" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Customer ID" max_length="40" name="customer_id" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Enrollment End" max_length="40" name="enrollment_end" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" label="Enrollment Start" max_length="40" name="enrollment_start" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" label="First Name" max_length="40" name="first_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Last Name" max_length="40" name="last_name" type="string"/>
+        <index name="index">
+            <element name="billing_period"/>
+        </index>
+        <index name="index2">
+            <element name="client_number"/>
+        </index>
+    </element>
+</database>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_related sys_domain="global" table="x_981023_billing_0_billing_period" version="2" view="">
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Billing Period - Default view" name="x_981023_billing_0_billing_period" related_list="NULL" sys_domain="global" view="Default view">ad37cd2947720210844835ca116d43c8</list_id>
+            <order_by/>
+            <position>0</position>
+            <related_list>x_981023_billing_0_order_transactions.billing_period</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-06-14 18:22:23</sys_created_on>
+            <sys_id>e937cd2947720210844835ca116d43c9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-06-14 18:22:23</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Billing Period - Default view" name="x_981023_billing_0_billing_period" related_list="NULL" sys_domain="global" view="Default view">ad37cd2947720210844835ca116d43c8</list_id>
+            <order_by/>
+            <position>1</position>
+            <related_list>x_981023_billing_0_order_lines.billing_period</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-06-14 18:22:23</sys_created_on>
+            <sys_id>ed37cd2947720210844835ca116d43c9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-06-14 18:22:23</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Billing Period - Default view" name="x_981023_billing_0_billing_period" related_list="NULL" sys_domain="global" view="Default view">ad37cd2947720210844835ca116d43c8</list_id>
+            <order_by/>
+            <position>2</position>
+            <related_list>x_981023_billing_0_bills.billing_period</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-06-14 18:22:23</sys_created_on>
+            <sys_id>e137cd2947720210844835ca116d43ca</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-06-14 18:22:23</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list action="INSERT_OR_UPDATE">
+            <calculated_name>Billing Period - Default view</calculated_name>
+            <filter/>
+            <name>x_981023_billing_0_billing_period</name>
+            <order_by/>
+            <position/>
+            <related_list/>
+            <sys_class_name>sys_ui_related_list</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-06-14 18:22:23</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ad37cd2947720210844835ca116d43c8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Billing Period - Default view</sys_name>
+            <sys_package display_value="Billing and Collections Test" source="x_981023_billing_0">e908e09747220210844835ca116d43e5</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Billing and Collections Test">e908e09747220210844835ca116d43e5</sys_scope>
+            <sys_update_name>sys_ui_related_x_981023_billing_0_billing_period_null</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-06-14 18:22:23</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_related_list>
+    </sys_ui_related>
+</record_update>

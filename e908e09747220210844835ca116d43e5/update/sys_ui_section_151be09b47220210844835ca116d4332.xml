@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="" section_id="151be09b47220210844835ca116d4332" sys_domain="global" table="x_981023_billing_0_monthly_staging" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>0</position>
+            <sys_created_by>aes.creator</sys_created_by>
+            <sys_created_on>2024-06-07 16:33:08</sys_created_on>
+            <sys_id>d91be09b47220210844835ca116d4335</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_981023_billing_0_monthly_staging" sys_domain="global" view="Default view">151be09b47220210844835ca116d4332</sys_ui_section>
+            <sys_updated_by>aes.creator</sys_updated_by>
+            <sys_updated_on>2024-06-07 16:33:08</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>enrollment_start</element>
+            <position>1</position>
+            <sys_created_by>aes.creator</sys_created_by>
+            <sys_created_on>2024-06-07 16:33:08</sys_created_on>
+            <sys_id>511be09b47220210844835ca116d4336</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_981023_billing_0_monthly_staging" sys_domain="global" view="Default view">151be09b47220210844835ca116d4332</sys_ui_section>
+            <sys_updated_by>aes.creator</sys_updated_by>
+            <sys_updated_on>2024-06-07 16:33:08</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>enrollment_end</element>
+            <position>2</position>
+            <sys_created_by>aes.creator</sys_created_by>
+            <sys_created_on>2024-06-07 16:33:08</sys_created_on>
+            <sys_id>d11be09b47220210844835ca116d4336</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_981023_billing_0_monthly_staging" sys_domain="global" view="Default view">151be09b47220210844835ca116d4332</sys_ui_section>
+            <sys_updated_by>aes.creator</sys_updated_by>
+            <sys_updated_on>2024-06-07 16:33:08</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>active</element>
+            <position>3</position>
+            <sys_created_by>aes.creator</sys_created_by>
+            <sys_created_on>2024-06-07 16:33:08</sys_created_on>
+            <sys_id>551be09b47220210844835ca116d4336</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_981023_billing_0_monthly_staging" sys_domain="global" view="Default view">151be09b47220210844835ca116d4332</sys_ui_section>
+            <sys_updated_by>aes.creator</sys_updated_by>
+            <sys_updated_on>2024-06-07 16:33:08</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>customer_id</element>
+            <position>4</position>
+            <sys_created_by>aes.creator</sys_created_by>
+            <sys_created_on>2024-06-07 16:33:08</sys_created_on>
+            <sys_id>d51be09b47220210844835ca116d4336</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_981023_billing_0_monthly_staging" sys_domain="global" view="Default view">151be09b47220210844835ca116d4332</sys_ui_section>
+            <sys_updated_by>aes.creator</sys_updated_by>
+            <sys_updated_on>2024-06-07 16:33:08</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>5</position>
+            <sys_created_by>aes.creator</sys_created_by>
+            <sys_created_on>2024-06-07 16:33:08</sys_created_on>
+            <sys_id>591be09b47220210844835ca116d4336</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_981023_billing_0_monthly_staging" sys_domain="global" view="Default view">151be09b47220210844835ca116d4332</sys_ui_section>
+            <sys_updated_by>aes.creator</sys_updated_by>
+            <sys_updated_on>2024-06-07 16:33:08</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>client_number</element>
+            <position>6</position>
+            <sys_created_by>aes.creator</sys_created_by>
+            <sys_created_on>2024-06-07 16:33:08</sys_created_on>
+            <sys_id>d91be09b47220210844835ca116d4336</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_981023_billing_0_monthly_staging" sys_domain="global" view="Default view">151be09b47220210844835ca116d4332</sys_ui_section>
+            <sys_updated_by>aes.creator</sys_updated_by>
+            <sys_updated_on>2024-06-07 16:33:08</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>first_name</element>
+            <position>7</position>
+            <sys_created_by>aes.creator</sys_created_by>
+            <sys_created_on>2024-06-07 16:33:08</sys_created_on>
+            <sys_id>5d1be09b47220210844835ca116d4336</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_981023_billing_0_monthly_staging" sys_domain="global" view="Default view">151be09b47220210844835ca116d4332</sys_ui_section>
+            <sys_updated_by>aes.creator</sys_updated_by>
+            <sys_updated_on>2024-06-07 16:33:08</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>current_billing_period</element>
+            <position>8</position>
+            <sys_created_by>aes.creator</sys_created_by>
+            <sys_created_on>2024-06-07 16:33:08</sys_created_on>
+            <sys_id>dd1be09b47220210844835ca116d4336</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_981023_billing_0_monthly_staging" sys_domain="global" view="Default view">151be09b47220210844835ca116d4332</sys_ui_section>
+            <sys_updated_by>aes.creator</sys_updated_by>
+            <sys_updated_on>2024-06-07 16:33:08</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>last_name</element>
+            <position>9</position>
+            <sys_created_by>aes.creator</sys_created_by>
+            <sys_created_on>2024-06-07 16:33:08</sys_created_on>
+            <sys_id>511be09b47220210844835ca116d4337</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_981023_billing_0_monthly_staging" sys_domain="global" view="Default view">151be09b47220210844835ca116d4332</sys_ui_section>
+            <sys_updated_by>aes.creator</sys_updated_by>
+            <sys_updated_on>2024-06-07 16:33:08</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>10</position>
+            <sys_created_by>aes.creator</sys_created_by>
+            <sys_created_on>2024-06-07 16:33:08</sys_created_on>
+            <sys_id>d11be09b47220210844835ca116d4337</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_981023_billing_0_monthly_staging" sys_domain="global" view="Default view">151be09b47220210844835ca116d4332</sys_ui_section>
+            <sys_updated_by>aes.creator</sys_updated_by>
+            <sys_updated_on>2024-06-07 16:33:08</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>billing_period</element>
+            <position>11</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-06-07 16:57:07</sys_created_on>
+            <sys_id>a890309347620210844835ca116d439b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_981023_billing_0_monthly_staging" sys_domain="global" view="Default view">151be09b47220210844835ca116d4332</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-06-07 16:57:07</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>x_981023_billing_0_monthly_staging</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>aes.creator</sys_created_by>
+            <sys_created_on>2024-06-07 16:33:08</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>151be09b47220210844835ca116d4332</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_981023_billing_0_monthly_staging</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Billing and Collections Test" source="x_981023_billing_0">e908e09747220210844835ca116d43e5</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Billing and Collections Test">e908e09747220210844835ca116d43e5</sys_scope>
+            <sys_update_name>sys_ui_section_151be09b47220210844835ca116d4332</sys_update_name>
+            <sys_updated_by>aes.creator</sys_updated_by>
+            <sys_updated_on>2024-06-07 16:33:08</sys_updated_on>
+            <sys_user/>
+            <title>true</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

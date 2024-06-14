@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_fix">
+    <sys_script_fix action="INSERT_OR_UPDATE">
+        <before>false</before>
+        <description/>
+        <name>Delete Order Lines</name>
+        <record_for_rollback>true</record_for_rollback>
+        <script><![CDATA[var ol = new GlideRecord('x_981023_billing_0_order_lines');
+ol.query();
+ol.deleteMultiple();]]></script>
+        <sys_class_name>sys_script_fix</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-14 18:34:48</sys_created_on>
+        <sys_id>58c9892d47720210844835ca116d431b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Delete Order Lines</sys_name>
+        <sys_package display_value="Billing and Collections Test" source="x_981023_billing_0">e908e09747220210844835ca116d43e5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Billing and Collections Test">e908e09747220210844835ca116d43e5</sys_scope>
+        <sys_update_name>sys_script_fix_58c9892d47720210844835ca116d431b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-14 18:34:48</sys_updated_on>
+        <unloadable>false</unloadable>
+    </sys_script_fix>
+</record_update>

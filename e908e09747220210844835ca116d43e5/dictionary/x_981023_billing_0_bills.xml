@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="631dec1f47220210844835ca116d433e" label="Bills" max_length="40" name="x_981023_billing_0_bills" type="collection">
+        <element label="Billing Period" max_length="32" name="billing_period" reference="x_981023_billing_0_billing_period" type="reference"/>
+        <element label="Client" max_length="32" name="client" reference="x_981023_billing_0_client" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Total Cost" max_length="20" name="total_cost" type="currency"/>
+        <index name="index">
+            <element name="billing_period"/>
+        </index>
+        <index name="index2">
+            <element name="client"/>
+        </index>
+    </element>
+</database>

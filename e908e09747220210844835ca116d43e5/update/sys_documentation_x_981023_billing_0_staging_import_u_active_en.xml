@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="u_active" label="Active" language="en" table="x_981023_billing_0_staging_import">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_active</element>
+            <help/>
+            <hint/>
+            <label>Active</label>
+            <language>en</language>
+            <name>x_981023_billing_0_staging_import</name>
+            <plural>Active</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-06-14 17:49:44</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Active</sys_name>
+            <sys_package display_value="Billing and Collections Test" source="x_981023_billing_0">e908e09747220210844835ca116d43e5</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Billing and Collections Test">e908e09747220210844835ca116d43e5</sys_scope>
+            <sys_update_name>sys_documentation_x_981023_billing_0_staging_import_u_active_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-06-14 17:49:44</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

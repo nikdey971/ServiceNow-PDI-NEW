@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="0b4a6c1b47220210844835ca116d4398" label="Client" max_length="40" name="x_981023_billing_0_client" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Client Name" max_length="40" name="client_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Client Number" max_length="40" name="client_number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+    </element>
+</database>

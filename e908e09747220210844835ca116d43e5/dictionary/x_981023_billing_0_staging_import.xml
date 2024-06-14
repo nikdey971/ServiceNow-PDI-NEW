@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="efbfb4ed47320210844835ca116d4359" extends="sys_import_set_row" label="Staging Import" max_length="40" name="x_981023_billing_0_staging_import" type="collection">
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Active" label="Active" max_length="40" name="u_active" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Billing Period" label="Billing Period" max_length="40" name="u_billing_period" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Client Number" label="Client Number" max_length="40" name="u_client_number" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Customer ID" label="Customer ID" max_length="40" name="u_customer_id" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Enrollment End" label="Enrollment End" max_length="40" name="u_enrollment_end" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Enrollment Start" label="Enrollment Start" max_length="40" name="u_enrollment_start" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=First Name" label="First Name" max_length="40" name="u_first_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Last Name" label="Last Name" max_length="40" name="u_last_name" type="string"/>
+    </element>
+</database>

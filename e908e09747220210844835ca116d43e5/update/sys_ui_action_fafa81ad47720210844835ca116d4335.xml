@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_action">
+    <sys_ui_action action="INSERT_OR_UPDATE">
+        <action_name>Generate Bills</action_name>
+        <active>true</active>
+        <client>false</client>
+        <client_script_v2><![CDATA[function onClick(g_form) {
+
+}]]></client_script_v2>
+        <comments/>
+        <condition/>
+        <form_action>true</form_action>
+        <form_button>true</form_button>
+        <form_button_v2>false</form_button_v2>
+        <form_context_menu>false</form_context_menu>
+        <form_link>false</form_link>
+        <form_menu_button_v2>false</form_menu_button_v2>
+        <form_style/>
+        <format_for_configurable_workspace>false</format_for_configurable_workspace>
+        <hint/>
+        <isolate_script>false</isolate_script>
+        <list_action>false</list_action>
+        <list_banner_button>false</list_banner_button>
+        <list_button>false</list_button>
+        <list_choice>false</list_choice>
+        <list_context_menu>false</list_context_menu>
+        <list_link>false</list_link>
+        <list_save_with_form_button>false</list_save_with_form_button>
+        <list_style/>
+        <messages/>
+        <name>Generate Bills</name>
+        <onclick/>
+        <order>100</order>
+        <script><![CDATA[var client = new GlideRecord('x_981023_billing_0_client');
+client.query();
+
+while (client.next()) {
+    var bill = new GlideRecord('x_981023_billing_0_bills');
+    bill.addQuery('billing_period', current.sys_id);
+    bill.addQuery('client', client.sys_id);
+    bill.query();
+
+    if (bill.next()) {
+        //
+    } else {
+        bill.billing_period = current.sys_id;
+        bill.client = client.sys_id;
+        bill.insert();
+    }
+    var ol = new GlideRecord('x_981023_billing_0_order_lines');
+    ol.addQuery('client', client.sys_id);
+    ol.addQuery('billing_period', current.sys_id);
+
+    ol.addQuery('state', 'Ready');
+    ol.query();
+
+    while (ol.next()) {
+        ol.state = "Billed";
+        ol.bill = bill.sys_id;
+        ol.update();
+    }
+
+    var ga = new GlideAggregate('x_981023_billing_0_order_lines');
+    ga.addQuery('client', client.sys_id);
+    ga.addQuery('billing_period', current.sys_id);
+    ga.addQuery('state', 'Billed');
+    ga.addAggregate('SUM', 'cost');
+    ga.query();
+    var totalCost = 0.0;
+    if (ga.next()) {
+        totalCost = ga.getAggregate('SUM', 'cost');
+    }
+    gs.info('nd totalCost: ' + totalCost);
+    bill.total_cost = parseFloat(totalCost);
+	bill.update();
+}]]></script>
+        <show_insert>true</show_insert>
+        <show_multiple_update>false</show_multiple_update>
+        <show_query>false</show_query>
+        <show_update>true</show_update>
+        <sys_class_name>sys_ui_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-14 18:38:50</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>fafa81ad47720210844835ca116d4335</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Generate Bills</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Billing and Collections Test" source="x_981023_billing_0">e908e09747220210844835ca116d43e5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Billing and Collections Test">e908e09747220210844835ca116d43e5</sys_scope>
+        <sys_update_name>sys_ui_action_fafa81ad47720210844835ca116d4335</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-14 18:58:05</sys_updated_on>
+        <table>x_981023_billing_0_billing_period</table>
+        <ui11_compatible>true</ui11_compatible>
+        <ui16_compatible>false</ui16_compatible>
+    </sys_ui_action>
+</record_update>
