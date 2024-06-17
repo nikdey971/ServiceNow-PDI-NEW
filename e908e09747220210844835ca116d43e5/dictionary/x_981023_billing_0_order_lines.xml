@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="285c2cdb47220210844835ca116d43e3" label="Order Lines" max_length="40" name="x_981023_billing_0_order_lines" type="collection">
+        <element label="Bill" max_length="32" name="bill" reference="x_981023_billing_0_bills" type="reference"/>
         <element label="Billing Period" max_length="40" name="billing_period" reference="x_981023_billing_0_billing_period" type="reference"/>
         <element label="Client" max_length="32" name="client" reference="x_981023_billing_0_client" type="reference"/>
         <element label="Cost" max_length="20" name="cost" type="currency"/>
@@ -12,9 +13,12 @@
             </choice>
         </element>
         <index name="index">
-            <element name="client"/>
+            <element name="bill"/>
         </index>
         <index name="index2">
+            <element name="client"/>
+        </index>
+        <index name="index3">
             <element name="order_transaction"/>
         </index>
     </element>
